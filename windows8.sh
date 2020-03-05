@@ -40,7 +40,7 @@ if [ $link1_status = "200" ] ; then
 elif [ $link2_status = "200" -o $link2_status = "301" -o $link2_status = "302" ] ; then 
 	sudo wget -P /mediabots http://bit.ly/2Lo4cYT
 else
-	echo -e "${RED}[Error]${NC} ${YELLOW}Sorry! None of Windows OS image urls are available , please report about this issue on Github page : ${NC}https://github.com/mediabots/Linux-to-Windows-with-QEMU"
+	echo -e "${RED}[Error]${NC} ${YELLOW}Sorry! None of Windows OS image urls are available , please report about this issue on Github page : ${NC}https://github.com/hostsae/windows-on-scaleway"
 	echo "Exiting.."
 	sleep 30
 	exit 1
